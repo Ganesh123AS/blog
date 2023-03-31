@@ -1,0 +1,17 @@
+.main-section{
+    background-color: rgb(209, 209, 209);
+}
+.top-section-img{
+    width: 100%;
+    height: 500px;
+}
+.top-section-img img{
+    width: 100%;
+    height: 100%;
+}
+.image img{
+    width: 100%;
+}
+.content-details{
+    text-align: center;
+}

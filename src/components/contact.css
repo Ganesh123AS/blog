@@ -1,0 +1,15 @@
+.contact-section{
+    background: rgb(238, 237, 237);
+    color: #000;
+    font-size: 19px;
+}
+.button button{
+    background: green;
+    color: #fff;
+    padding: 4px 14px;
+}
+.button button:hover{
+    background: blue;
+    color: #fff;
+    padding: 4px 14px;
+}

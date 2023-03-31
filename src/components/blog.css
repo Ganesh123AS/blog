@@ -1,0 +1,22 @@
+.blog{
+    height: 100vh;
+    background: rgb(238, 237, 237);
+    color: #000;
+    font-size: 26px;
+}
+.form input[type="text"]{
+ margin-left: 20px;
+ padding: 0px 20px;
+ border: 1px solid red;
+}
+.ql-toolbar.ql-snow{
+    border: 1px solid #000;
+}
+.ql-toolbar.ql-snow + .ql-container.ql-snow{
+    border: 1px solid #000; 
+}
+.button button{
+    background: green;
+    color: #fff;
+    padding: 4px 14px;
+}
