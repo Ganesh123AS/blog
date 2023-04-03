@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css';
-import "./blog.css";
+import "./component.css";
 
 const Blog = () => {
   const [value, setValue] = useState('');

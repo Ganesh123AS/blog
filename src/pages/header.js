@@ -2,12 +2,12 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom';
-import "./header.css";
+import "./pages.css";
 
 const Header = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-primary text-color">
+      <nav className="navbar navbar-expand-lg text-color">
   <div className="container">
     <Link className="navbar-brand" to="/">Navbar</Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,12 +30,14 @@ const Header = () => {
         <li className="nav-item">
           <Link className="nav-link" to="/carrier">Carrier</Link>
         </li>
+        <li className="nav-item">
+          <Link className="nav-link" to="/addpost">Add Post</Link>
+        </li>
         
       </ul>
-      <form className="d-flex" role="search">
-        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-        <button className="btn btn-outline-success" type="submit">Search</button>
-      </form>
+      <div className="button d-flex">
+        <Link to="/login"><button className='btn btn-outline-success' type="submit">Login</button></Link>
+      </div>
     </div>
   </div>
 </nav>

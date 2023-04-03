@@ -1,0 +1,67 @@
+/* Start Of Blog CSS */
+
+.blog{
+    height: 100vh;
+    background: rgb(238, 237, 237);
+    color: #000;
+    font-size: 26px;
+}
+.form input[type="text"]{
+ margin-left: 20px;
+ padding: 0px 20px;
+ border: 1px solid red;
+}
+.ql-toolbar.ql-snow{
+    border: 1px solid #000;
+}
+.ql-toolbar.ql-snow + .ql-container.ql-snow{
+    border: 1px solid #000; 
+}
+.button button{
+    background: green;
+    color: #fff;
+    padding: 4px 14px;
+}
+
+/* End Of Blog CSS */
+
+
+/* Start Of Carrier CSS */
+
+.carrier{
+    background-image: url("https://www.cedargate.com/wp-content/uploads/2022/01/NEW_Website_Header_Careers4.png");
+}
+.carrier-section{
+    padding-top: 42px;
+    margin-left: 130px;
+}
+
+/* End Of Carrier CSS */
+
+
+/* Start Of Contact CSS */
+
+.contact-section{
+    background: rgb(238, 237, 237);
+    color: #000;
+    font-size: 19px;
+}
+.button button{
+    background: green;
+    color: #fff;
+    padding: 4px 14px;
+}
+.button button:hover{
+    background: blue;
+    color: #fff;
+    padding: 4px 14px;
+}
+
+/* End Of Contact CSS */
+
+
+/* Start Of Add Post CSS */
+.post-title{
+    font-size: 26px;
+}
+/* End Of Add Post CSS */

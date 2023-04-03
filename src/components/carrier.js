@@ -1,5 +1,5 @@
 import React from 'react';
-import "./carrier.css";
+import "./component.css";
 
 const Carrier = () => {
   return (
